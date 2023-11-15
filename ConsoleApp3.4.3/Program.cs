@@ -17,4 +17,13 @@
         Sunday = 7
     }
 
+    class Program
+    {
+        public static void Main(string[] args) 
+        {
+            DayOfWeek MyFavoriteDay;
+            MyFavoriteDay = DayOfWeek.Sunday;
+            Console.WriteLine("Мой любимый день {0} !", MyFavoriteDay);
+        }
+    }
 }
