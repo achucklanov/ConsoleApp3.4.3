@@ -14,15 +14,15 @@
         Thursday = 4,
         Friday = 5,
         Saturday = 6,
-        Sunday = 7
+        //Sunday = 7
     }
 
     class Program
     {
         public static void Main(string[] args) 
         {
-            DaysOfWeek MyFavoriteDay;
-            MyFavoriteDay = DaysOfWeek.Sunday;
+            DayOfWeek MyFavoriteDay;
+            MyFavoriteDay = DayOfWeek.Sunday;
 
             Console.WriteLine("Мой любимый день {0} !", MyFavoriteDay);
         }
