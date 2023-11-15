@@ -2,9 +2,9 @@
 {
     enum Semaphore : int
     {
-        Red = 100,
-        Yellow = 200,
-        Green = 300
+        Red = 700,
+        Green = 500,
+        Violet = 380
     }
     enum DaysOfWeek : byte
     {
@@ -23,6 +23,7 @@
         {
             DayOfWeek MyFavoriteDay;
             MyFavoriteDay = DayOfWeek.Sunday;
+
             Console.WriteLine("Мой любимый день {0} !", MyFavoriteDay);
         }
     }
