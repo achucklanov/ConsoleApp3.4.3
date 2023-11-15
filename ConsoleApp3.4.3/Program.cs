@@ -21,10 +21,12 @@
     {
         public static void Main(string[] args) 
         {
-            DayOfWeek MyFavoriteDay;
-            MyFavoriteDay = DayOfWeek.Sunday;
+            DaysOfWeek MyFavoriteDay;
+            MyFavoriteDay = DaysOfWeek.Sunday;
 
             Console.WriteLine("Мой любимый день {0} !", MyFavoriteDay);
         }
+
+        
     }
 }
